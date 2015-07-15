@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+
+    <ImageView
+        android:id="@+id/homeappIcon"
+       
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"        
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/hometitleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/appIcon"
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_marginLeft="3dp"
+        android:text="Application Title"
+        android:textSize="14dp"/>
+
+    <!--  <LinearLayout
+        
+        android:id="@+id/ratingCntr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/appIcon"
+        android:layout_below="@id/titleTxt"
+        android:layout_marginLeft="5dp" >
+        
+    </LinearLayout>-->
+    
+
+    <TextView
+        android:id="@+id/homedlTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTxt"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:text="0 dl"
+        android:textColor="#ed9921" />    
+
+</LinearLayout>

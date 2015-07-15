@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="color_names">
+        <item >HOME</item>
+        <item >ABOUT</item>
+        <item>APPLE</item>
+        <item>SAMSUNG SIM-1</item>
+        
+        <item>NOKIA Phones</item>
+        <item>LG Phones</item>
+        <item>SONY Phones</item>
+        <item>HTC Phones</item>
+        <item>MOTOROLA Phones</item>
+        <item>SecondHand Phones</item>
+        <item>ACCESSORY</item>
+        
+        </string-array>
+    
+   
+</resources>

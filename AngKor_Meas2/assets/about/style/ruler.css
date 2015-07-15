@@ -1,0 +1,29 @@
+@charset "utf-8";
+div#ruler {
+	border-bottom:1px solid #cccccc;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	margin-left:10px;
+	margin-right:10px;
+}
+div#first{
+	border:1px solid #f6f6f6;
+	background:#fff;
+	color:#069;
+	width:auto;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div#num{
+	border:1px solid #CCC;
+	background:#ffffff;
+	width:auto;
+	float:left;
+	margin-left:2px;
+	color:#06F;
+	#F60
+}

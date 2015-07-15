@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="kh.edu.iic.angkormeas"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:icon="@drawable/logo" android:logo="@drawable/ank" android:name="GridViewApp">
+    
+        <activity android:name="kh.edu.iic.angkormeas.BaseActivity"></activity>
+        
+        // We can show the action first for run
+        <activity android:name="kh.edu.iic.angkormeas.FragmentChangeActivity">
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kh.edu.iic.angkormeas.ResponsiveUIActivity"></activity>
+        <activity android:name="kh.edu.iic.angkormeas.GridViewFull">
+            
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.myfirstapp.MainActivity" />
+            
+        </activity>
+        <activity android:name="NokiaList">
+             
+            
+        </activity>
+        <activity android:name="MotorolaList"></activity>
+        <activity android:name="LgList"></activity>
+        <activity android:name="MotorolaGridViewFull"></activity>
+        <activity android:name="LgGridViewFull"></activity>
+    </application>
+
+</manifest>
